@@ -12,31 +12,30 @@
     <div class="base">
         <div class="cabecera"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
         <div class="subcabecera"><div class="CuentaAtrasTres"></div><p>&nbsp;Introduzca los datos</p></div>
-        <div class="cuerpo" style="background-image: url('../img/means/fondo21-3.gif');">
+        <div class="cuerpo" th:style="'background-image: url(' + @{/img/means/fondo21-3.gif} + ');'">
            
-            <form class="Fdatares" name="Fdatareserva" method="POST" action="./step3.html">
-              <div class="mini-billboard-selected"><div><div th:style="'background-image: url(' + @{/img/films/billboard/film3.jpg} + ');'"
-></div></div></div>
+            <form class="Fdatares" name="Fdatareserva" method="POST" th:action="@{/step3}">
+              <div class="mini-billboard-selected"><div><div th:style="'background-image: url(' + @{/img/films/billboard/film} + ${booking.getIdFilm} + '.jpg'"></div></div></div>
               <div class="DatPer">
-                <div><label>Nombre:</label><input type="text" name="fnom" /></div>
-                <div><label>Apellidos:</label><input type="text" name="fapell" /></div>
-                <div><label>e-mail:</label><input type="email" name="fmail" /></div>
-                <div><label>Repetir e-mail:</label><input type="email" name="frepmail" /></div>
+                <div><label>Nombre:</label><input type="text" name="fnom" th:value="${booking.fName}" th:classappend="${validation.invalidName} ? 'input-error' : ''"/></div>
+                <div><label>Apellidos:</label><input type="text" name="fapell" th:value="${booking.fSurname}"/></div>
+                <div><label>e-mail:</label><input type="email" name="fmail" th:value="${booking.fMail}" th:classappend="${validation.invalidMail || (validation.invalidMail && validation.invalidRepMail)} ? 'input-error' : ''"/></div>
+                <div><label>Repetir e-mail:</label><input type="email" name="frepmail" th:value="${booking.fRepMail}" th:classappend="${validation.invalidRepMail} ? 'input-error' : ''"/></div>
               </div>
               <div class="DatRes">
-                <div><label>Fecha:</label><input type="date" name="fdate" min="2022-09-10" max="2022-12-01" /></div>
-                <div><label>Hora:</label><input type="time" name="fhour" list="popularHours" value="17:00" min="17:00" max="23:00" step="10800" />
+                <div><label>Fecha:</label><input type="date" name="fdate" min="2024-09-10" max="2024-12-01" th:value="${booking.fDate}" th:classappend="${validation.invalidDate} ? 'input-error' : ''"/></div>
+                <div><label>Hora:</label><input type="time" name="fhour" list="popularHours" value="17:00" min="17:00" max="23:00" step="10800" th:value="${booking.fHour}" th:classappend="${validation.invalidHour} ? 'input-error' : ''"/>
                     <datalist id="popularHours">
                         <option value="17:00">
                         <option value="20:00">
                         <option value="23:00">
                     </datalist>
                 </div>
-                    <div class="VerticalAling"><label class="numentradas">Nº adultos:</label><input type="number" name="fnumentradasadult" min="1" max="60" value="1" step="1" /></div>  
-                    <div class="VerticalAling"><label class="numentradas">Nº menores 12 años:</label><input type="number" name="fnumentradasmen" min="0" max="60" value="0" step="1"/></div>  
+                    <div class="VerticalAling"><label class="numentradas">Nº adultos:</label><input type="number" name="fnumentradasadult" min="0" max="60" value="1" step="1" th:value="${booking.fNumAdults}" th:classappend="${validation.invalidNumAdultsTickets} ? 'input-error' : ''"/></div>  
+                    <div class="VerticalAling"><label class="numentradas">Nº menores 12 años:</label><input type="number" name="fnumentradasmen" min="0" max="60" value="0" step="1" th:value="${booking.fNumChildren}" th:classappend="${validation.invalidNumChildrenTickets} ? 'input-error' : ''"/></div>  
               </div>
               <div>
-                <div><a class="atrasbtn" th:href="@{step1}">&lt;&lt; Atras</a><a class="homebtn" th:href="@{/index}">&nbsp;</a><input type="submit" value="Siguiente &gt;&gt;" /></div>
+                <div><a class="atrasbtn" th:href="@{step1}">&lt;&lt; Atras</a><a class="homebtn" th:href="@{/index}">&nbsp;</a><input type="submit" th:href="@{step3}" value="Siguiente &gt;&gt;" /></div>
               </div>
             </form>
         </div>
@@ -44,3 +43,5 @@
     </div>
 </body>
 </html>
+
+<!-- th:style="${validation.invalidName} ? 'border:2px solid red' : ''" -->

@@ -1,0 +1,506 @@
+0SECTION       TITLE subcomponent dump routine
+NULL           ===============================
+1TICHARSET     1252
+1TISIGINFO     Dump Event "gpf" (00002000) received
+1TIDATETIMEUTC Date: 2024/10/22 at 10:25:04:633 (UTC)
+1TIDATETIME    Date: 2024/10/22 at 11:25:04:633
+1TITIMEZONE    Timezone: (unavailable)
+1TINANOTIME    System nanotime: 175890491520600
+1TIFILENAME    Javacore filename:    C:\Users\ID\Documents\workspace-spring\TicketingSystem\javacore.20241022.112452.11440.0002.txt
+1TIREQFLAGS    Request Flags: 0x41 (exclusive+preempt)
+1TIPREPSTATE   Prep State: 0x80 (trace_disabled)
+1TIPREPINFO    Exclusive VM access not taken: data may not be consistent across javacore sections
+NULL           ------------------------------------------------------------------------
+0SECTION       GPINFO subcomponent dump routine
+NULL           ================================
+2XHOSLEVEL     OS Level         : Windows 10 10.0 build 19045
+2XHCPUS        Processors -
+3XHCPUARCH       Architecture   : amd64
+3XHNUMCPUS       How Many       : 4
+3XHNUMASUP       NUMA is either not supported or has been disabled by user
+NULL
+1XHEXCPCODE    Windows_ExceptionCode: C0000005
+1XHEXCPCODE    J9Generic_Signal: 00000004
+1XHEXCPCODE    ExceptionAddress: 00007FF953A03833
+1XHEXCPCODE    ContextFlags: 0010005F
+1XHEXCPCODE    Handler1: 00007FF953A28840
+1XHEXCPCODE    Handler2: 00007FF97A84AA50
+1XHEXCPCODE    InaccessibleReadAddress: 0000000000000000
+NULL
+1XHEXCPMODULE  Module: C:\Program Files\Java\jdk-17.0.8.1+1\bin\default\j9vm29.dll
+1XHEXCPMODULE  Module_base_address: 00007FF953960000
+1XHEXCPMODULE  Offset_in_DLL: 00000000000A3833
+NULL
+1XHREGISTERS   Registers:
+2XHREGISTER      RDI: 0000000000EBC978
+2XHREGISTER      RSI: 00000000000DC2BA
+2XHREGISTER      RAX: 0000000000000000
+2XHREGISTER      RBX: 0000000000CCCB00
+2XHREGISTER      RCX: 0000019E7CE87720
+2XHREGISTER      RDX: 00000000820559F8
+2XHREGISTER      R8: 0000000000000004
+2XHREGISTER      R9: 0000019E7CE87720
+2XHREGISTER      R10: 00007FF97AD3A0B0
+2XHREGISTER      R11: 0000007AC0F7EC68
+2XHREGISTER      R12: 0000000000EBC9D8
+2XHREGISTER      R13: 0000000082456550
+2XHREGISTER      R14: 0000000000000008
+2XHREGISTER      R15: 0000000000EBC9D0
+2XHREGISTER      XMM0: 0000000000CCCB00
+2XHREGISTER      XMM1: 00000000002BEB30
+2XHREGISTER      XMM2: 0000000000EBC9D8
+2XHREGISTER      XMM3: 0000000000EBC9D0
+2XHREGISTER      XMM4: 0000000000000000
+2XHREGISTER      XMM5: 0000000000000000
+2XHREGISTER      XMM6: 0000000000000000
+2XHREGISTER      XMM7: 0000000000000000
+2XHREGISTER      XMM8: 0000000000000000
+2XHREGISTER      XMM9: 0000000000000000
+2XHREGISTER      XMM10: 0000000000000000
+2XHREGISTER      XMM11: 0000000000000000
+2XHREGISTER      XMM12: 0000000000000000
+2XHREGISTER      XMM13: 0000000000000000
+2XHREGISTER      XMM14: 0000000000000000
+2XHREGISTER      XMM15: 0000000000000000
+2XHREGISTER      RIP: 00007FF953A03833
+2XHREGISTER      RSP: 0000007AC0F7EB50
+2XHREGISTER      RBP: 000000000003D300
+2XHREGISTER      EFLAGS: 0000000000010202
+2XHREGISTER      FS: 0053
+2XHREGISTER      ES: 002B
+2XHREGISTER      DS: 002B
+NULL
+1XHFLAGS       VM flags:0000000000040000
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       ENVINFO subcomponent dump routine
+NULL           =================================
+1CIJAVAVERSION JRE 17 Windows 10 amd64-64 (build 17.0.8.1+1)
+1CIVMVERSION   20230824_503
+1CIJ9VMTAG     openj9-0.40.0
+1CIJ9VMVERSION d12d10c9e
+1CIJITVERSION  j9jit_20230824_1925_jenkins
+1CIOMRVERSION  e80bff83b_CMPRSS
+1CIJCLVERSION  8ecf238a124 based on jdk-17.0.8.1+1
+1CIVENDOR      IBM Corporation
+1CIPRODUCT     IBM Semeru Runtime Open Edition
+1CIEXTVERSION  17.0.8.1
+1CIJITMODES    JIT enabled, AOT enabled, FSD enabled, HCR enabled
+1CIRUNNINGAS   Running as an embedded JVM
+1CIVMIDLESTATE VM Idle State: ACTIVE
+1CICONTINFO    Running in container : FALSE
+1CICGRPINFO    JVM support for cgroups enabled : FALSE
+1CISTARTTIME   JVM start time: 2024/10/22 at 11:20:58:690
+1CISTARTNANO   JVM start nanotime: 175644547204800
+1CIPROCESSID   Process ID: 11440 (0x2CB0)
+1CICMDLINE     "C:\Program Files\Java\jdk-17.0.8.1+1\bin\javaw.exe" -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55471 "-javaagent:C:\Users\ID\.eclipse\org.eclipse.platform_4.29.0_596010203_win32_win32_x86_64\configuration\org.eclipse.osgi\262\0\.cp\lib\javaagent-shaded.jar" -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -classpath "C:\Users\ID\Documents\workspace-spring\TicketingSystem\target\classes;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.3.4\spring-boot-starter-thymeleaf-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.4\spring-boot-starter-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot\3.3.4\spring-boot-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.4\spring-boot-autoconfigure-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.4\spring-boot-starter-logging-3.3.4.jar;C:\Users\ID\.m2\repository\ch\qos\logback\logback-classic\1.5.8\logback-classic-1.5.8.jar;C:\Users\ID\.m2\repository\ch\qos\logback\logback-core\1.5.8\logback-core-1.5.8.jar;C:\Users\ID\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\ID\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\ID\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\ID\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\ID\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\ID\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\ID\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\ID\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\ID\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.4\spring-boot-starter-web-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.4\spring-boot-starter-json-3.3.4.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\ID\.m2\repository\org\springframework\spring-web\6.1.13\spring-web-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-beans\6.1.13\spring-beans-6.1.13.jar;C:\Users\ID\.m2\repository\io\micrometer\micrometer-observation\1.13.4\micrometer-observation-1.13.4.jar;C:\Users\ID\.m2\repository\io\micrometer\micrometer-commons\1.13.4\micrometer-commons-1.13.4.jar;C:\Users\ID\.m2\repository\org\springframework\spring-webmvc\6.1.13\spring-webmvc-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-aop\6.1.13\spring-aop-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-context\6.1.13\spring-context-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-expression\6.1.13\spring-expression-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.4\spring-boot-starter-tomcat-3.3.4.jar;C:\Users\ID\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.30\tomcat-embed-core-10.1.30.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.30\tomcat-embed-el-10.1.30.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.30\tomcat-embed-websocket-10.1.30.jar;C:\Users\ID\.m2\repository\org\springframework\spring-core\6.1.13\spring-core-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-jcl\6.1.13\spring-jcl-6.1.13.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\10.1.30\tomcat-embed-jasper-10.1.30.jar;C:\Users\ID\.m2\repository\org\eclipse\jdt\ecj\3.33.0\ecj-3.33.0.jar" es.dsw.app.TicketingSystemApplication
+1CIJAVAHOMEDIR Java Home Dir:   C:\Program Files\Java\jdk-17.0.8.1+1
+1CIJAVADLLDIR  Java DLL Dir:    C:\Program Files\Java\jdk-17.0.8.1+1\bin
+1CISYSCP       Sys Classpath:   
+1CIUSERARGS    UserArgs:
+2CIUSERARG               -Xoptionsfile=C:\Program Files\Java\jdk-17.0.8.1+1\lib\options.default
+2CIUSERARG               -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+2CIUSERARG               -XX:+EnsureHashed:java/lang/Class,java/lang/Thread
+2CIUSERARG               -Xjcl:jclse29
+2CIUSERARG               -Dcom.ibm.oti.vm.bootstrap.library.path=C:\Program Files\Java\jdk-17.0.8.1+1\bin\default;C:\Program Files\Java\jdk-17.0.8.1+1\bin
+2CIUSERARG               -Dsun.boot.library.path=C:\Program Files\Java\jdk-17.0.8.1+1\bin\default;C:\Program Files\Java\jdk-17.0.8.1+1\bin
+2CIUSERARG               -Djava.library.path=C:\Program Files\Java\jdk-17.0.8.1+1\bin\default;C:\Program Files\Java\jdk-17.0.8.1+1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/eclipse/SpringToolsSuite//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin/server;C:/Program Files/eclipse/SpringToolsSuite//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin;C:\Program Files\Java\jdk-17.0.8.1+1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Git\cmd;C:\xampp\php;C:\Servidores\apache-tomcat-10.1.15\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ID\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ID\AppData\Local\Programs\Python\Python310\;"C:\Users\ID\AppData\Local\Microsoft\WindowsApps; C:\Program Files (x86)\gs\gs9.10\bin;C:\Program Files (x86)\gs\gs9.10\lib";C:\Users\ID\AppData\Local\Microsoft\WindowsApps;C:\Users\ID\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ID\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.2.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.2\bin;;C:\Users\ID\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;;C:\Program Files\eclipse\SpringToolsSuite;;.
+2CIUSERARG               -Djava.home=C:\Program Files\Java\jdk-17.0.8.1+1
+2CIUSERARG               -Duser.dir=C:\Users\ID\Documents\workspace-spring\TicketingSystem
+2CIUSERARG               -XX:+ShowCodeDetailsInExceptionMessages
+2CIUSERARG               -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55471
+2CIUSERARG               -javaagent:C:\Users\ID\.eclipse\org.eclipse.platform_4.29.0_596010203_win32_win32_x86_64\configuration\org.eclipse.osgi\262\0\.cp\lib\javaagent-shaded.jar
+2CIUSERARG               -Dfile.encoding=UTF-8
+2CIUSERARG               -Dstdout.encoding=UTF-8
+2CIUSERARG               -Dstderr.encoding=UTF-8
+2CIUSERARG               -Djava.class.path=C:\Users\ID\Documents\workspace-spring\TicketingSystem\target\classes;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.3.4\spring-boot-starter-thymeleaf-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.4\spring-boot-starter-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot\3.3.4\spring-boot-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.4\spring-boot-autoconfigure-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.4\spring-boot-starter-logging-3.3.4.jar;C:\Users\ID\.m2\repository\ch\qos\logback\logback-classic\1.5.8\logback-classic-1.5.8.jar;C:\Users\ID\.m2\repository\ch\qos\logback\logback-core\1.5.8\logback-core-1.5.8.jar;C:\Users\ID\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\ID\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\ID\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\ID\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\ID\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\ID\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\ID\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\ID\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\ID\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.4\spring-boot-starter-web-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.4\spring-boot-starter-json-3.3.4.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\ID\.m2\repository\org\springframework\spring-web\6.1.13\spring-web-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-beans\6.1.13\spring-beans-6.1.13.jar;C:\Users\ID\.m2\repository\io\micrometer\micrometer-observation\1.13.4\micrometer-observation-1.13.4.jar;C:\Users\ID\.m2\repository\io\micrometer\micrometer-commons\1.13.4\micrometer-commons-1.13.4.jar;C:\Users\ID\.m2\repository\org\springframework\spring-webmvc\6.1.13\spring-webmvc-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-aop\6.1.13\spring-aop-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-context\6.1.13\spring-context-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-expression\6.1.13\spring-expression-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.4\spring-boot-starter-tomcat-3.3.4.jar;C:\Users\ID\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.30\tomcat-embed-core-10.1.30.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.30\tomcat-embed-el-10.1.30.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.30\tomcat-embed-websocket-10.1.30.jar;C:\Users\ID\.m2\repository\org\springframework\spring-core\6.1.13\spring-core-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-jcl\6.1.13\spring-jcl-6.1.13.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\10.1.30\tomcat-embed-jasper-10.1.30.jar;C:\Users\ID\.m2\repository\org\eclipse\jdt\ecj\3.33.0\ecj-3.33.0.jar
+2CIUSERARG               -Dsun.java.command=es.dsw.app.TicketingSystemApplication
+2CIUSERARG               -Dsun.java.launcher=SUN_STANDARD
+NULL
+1CIUSERLIMITS  User Limits (in bytes except for NOFILE and NPROC)
+NULL           ------------------------------------------------------------------------
+2CIULIMITERR   Not supported on this platform
+NULL
+1CIENVVARS     Environment Variables (may include system defined environment variables)
+NULL           ------------------------------------------------------------------------
+2CIENVVAR      =::=::\
+2CIENVVAR      ALLUSERSPROFILE=C:\ProgramData
+2CIENVVAR      APPDATA=C:\Users\ID\AppData\Roaming
+2CIENVVAR      CATALINA_HOME=C:\Servidores\apache-tomcat-10.1.15
+2CIENVVAR      CommonProgramFiles=C:\Program Files\Common Files
+2CIENVVAR      CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+2CIENVVAR      CommonProgramW6432=C:\Program Files\Common Files
+2CIENVVAR      COMPUTERNAME=DESKTOP-I03108V
+2CIENVVAR      ComSpec=C:\WINDOWS\system32\cmd.exe
+2CIENVVAR      C_EM64T_REDIST11=C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+2CIENVVAR      DriverData=C:\Windows\System32\Drivers\DriverData
+2CIENVVAR      FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+2CIENVVAR      FPS_BROWSER_USER_PROFILE_STRING=Default
+2CIENVVAR      HOMEDRIVE=C:
+2CIENVVAR      HOMEPATH=\Users\ID
+2CIENVVAR      IntelliJ IDEA Educational Edition=C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.2.2\bin;
+2CIENVVAR      JAVA_HOME=C:\Program Files\Java\jdk-17.0.8.1+1
+2CIENVVAR      LOCALAPPDATA=C:\Users\ID\AppData\Local
+2CIENVVAR      LOGONSERVER=\\DESKTOP-I03108V
+2CIENVVAR      NUMBER_OF_PROCESSORS=4
+2CIENVVAR      OneDrive=C:\Users\ID\OneDrive
+2CIENVVAR      OneDriveConsumer=C:\Users\ID\OneDrive
+2CIENVVAR      OPENJ9_JAVA_COMMAND_LINE="C:\Program Files\Java\jdk-17.0.8.1+1\bin\javaw.exe" -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:55471 "-javaagent:C:\Users\ID\.eclipse\org.eclipse.platform_4.29.0_596010203_win32_win32_x86_64\configuration\org.eclipse.osgi\262\0\.cp\lib\javaagent-shaded.jar" -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -classpath "C:\Users\ID\Documents\workspace-spring\TicketingSystem\target\classes;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.3.4\spring-boot-starter-thymeleaf-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.4\spring-boot-starter-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot\3.3.4\spring-boot-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.4\spring-boot-autoconfigure-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.4\spring-boot-starter-logging-3.3.4.jar;C:\Users\ID\.m2\repository\ch\qos\logback\logback-classic\1.5.8\logback-classic-1.5.8.jar;C:\Users\ID\.m2\repository\ch\qos\logback\logback-core\1.5.8\logback-core-1.5.8.jar;C:\Users\ID\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\ID\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\ID\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\ID\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\ID\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\ID\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\ID\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\ID\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\ID\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.4\spring-boot-starter-web-3.3.4.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.4\spring-boot-starter-json-3.3.4.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\ID\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\ID\.m2\repository\org\springframework\spring-web\6.1.13\spring-web-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-beans\6.1.13\spring-beans-6.1.13.jar;C:\Users\ID\.m2\repository\io\micrometer\micrometer-observation\1.13.4\micrometer-observation-1.13.4.jar;C:\Users\ID\.m2\repository\io\micrometer\micrometer-commons\1.13.4\micrometer-commons-1.13.4.jar;C:\Users\ID\.m2\repository\org\springframework\spring-webmvc\6.1.13\spring-webmvc-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-aop\6.1.13\spring-aop-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-context\6.1.13\spring-context-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-expression\6.1.13\spring-expression-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.4\spring-boot-starter-tomcat-3.3.4.jar;C:\Users\ID\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.30\tomcat-embed-core-10.1.30.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.30\tomcat-embed-el-10.1.30.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.30\tomcat-embed-websocket-10.1.30.jar;C:\Users\ID\.m2\repository\org\springframework\spring-core\6.1.13\spring-core-6.1.13.jar;C:\Users\ID\.m2\repository\org\springframework\spring-jcl\6.1.13\spring-jcl-6.1.13.jar;C:\Users\ID\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\10.1.30\tomcat-embed-jasper-10.1.30.jar;C:\Users\ID\.m2\repository\org\eclipse\jdt\ecj\3.33.0\ecj-3.33.0.jar" es.dsw.app.TicketingSystemApplication
+2CIENVVAR      OS=Windows_NT
+2CIENVVAR      Path=C:/Program Files/eclipse/SpringToolsSuite//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin/server;C:/Program Files/eclipse/SpringToolsSuite//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047/jre/bin;C:\Program Files\Java\jdk-17.0.8.1+1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Git\cmd;C:\xampp\php;C:\Servidores\apache-tomcat-10.1.15\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ID\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ID\AppData\Local\Programs\Python\Python310\;"C:\Users\ID\AppData\Local\Microsoft\WindowsApps; C:\Program Files (x86)\gs\gs9.10\bin;C:\Program Files (x86)\gs\gs9.10\lib";C:\Users\ID\AppData\Local\Microsoft\WindowsApps;C:\Users\ID\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ID\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.2.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.2\bin;;C:\Users\ID\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;;C:\Program Files\eclipse\SpringToolsSuite;
+2CIENVVAR      PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+2CIENVVAR      PROCESSOR_ARCHITECTURE=AMD64
+2CIENVVAR      PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+2CIENVVAR      PROCESSOR_LEVEL=6
+2CIENVVAR      PROCESSOR_REVISION=3a09
+2CIENVVAR      ProgramData=C:\ProgramData
+2CIENVVAR      ProgramFiles=C:\Program Files
+2CIENVVAR      ProgramFiles(x86)=C:\Program Files (x86)
+2CIENVVAR      ProgramW6432=C:\Program Files
+2CIENVVAR      PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\PowerShell\Modules\
+2CIENVVAR      PT5HOME=C:\Program Files (x86)\Cisco Packet Tracer 5.3.3
+2CIENVVAR      PUBLIC=C:\Users\Public
+2CIENVVAR      PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.2\bin;
+2CIENVVAR      SESSIONNAME=Console
+2CIENVVAR      SystemDrive=C:
+2CIENVVAR      SystemRoot=C:\WINDOWS
+2CIENVVAR      TEMP=C:\Users\ID\AppData\Local\Temp
+2CIENVVAR      TMP=C:\Users\ID\AppData\Local\Temp
+2CIENVVAR      USERDOMAIN=DESKTOP-I03108V
+2CIENVVAR      USERDOMAIN_ROAMINGPROFILE=DESKTOP-I03108V
+2CIENVVAR      USERNAME=ID
+2CIENVVAR      USERPROFILE=C:\Users\ID
+2CIENVVAR      windir=C:\WINDOWS
+2CIENVVAR      __PSLockDownPolicy=0
+NULL
+1CICPUINFO     CPU Information
+NULL           ------------------------------------------------------------------------
+2CIPHYSCPU     Physical CPUs: 4
+2CIONLNCPU     Online CPUs: 4
+2CIBOUNDCPU    Bound CPUs: 4
+2CIACTIVECPU   Active CPUs: 0
+2CITARGETCPU   Target CPUs: 4
+2CIJITFEATURE  CPU features (JIT): fpu cx8 cmov mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 popcnt aesni osxsave avx
+2CIAOTFEATURE  CPU features (AOT): fpu cx8 cmov mmx sse sse2 sse3 ssse3 sse4_1 sse4_2 popcnt aesni osxsave avx
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       NATIVEMEMINFO subcomponent dump routine
+NULL           =================================
+0MEMUSER
+1MEMUSER       JRE: 3,047,163,736 bytes / 17883 allocations
+1MEMUSER       |
+2MEMUSER       +--VM: 2,742,503,896 bytes / 17410 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Classes: 358,801,008 bytes / 1994 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Shared Class Cache: 314,572,800 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 44,228,208 bytes / 1993 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Modules: 571,912 bytes / 2314 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Memory Manager (GC): 2,165,558,992 bytes / 802 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Heap: 2,122,051,584 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 43,507,408 bytes / 801 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Threads: 19,355,400 bytes / 152 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Stack: 626,784 bytes / 32 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Native Stack: 18,481,152 bytes / 33 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 247,464 bytes / 87 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Trace: 314,960 bytes / 313 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JVMTI: 1,325,104 bytes / 7465 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--JVMTI Allocate(): 938,896 bytes / 7343 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 386,208 bytes / 122 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JNI: 776,680 bytes / 2888 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Port Library: 194,471,584 bytes / 78 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Unused <32bit allocation regions: 194,459,800 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 11,784 bytes / 77 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 1,328,256 bytes / 1404 allocations
+1MEMUSER       |
+2MEMUSER       +--JIT: 304,576,752 bytes / 463 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Code Cache: 268,435,456 bytes / 1 allocation
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Data Cache: 6,291,648 bytes / 3 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 29,849,648 bytes / 459 allocations
+1MEMUSER       |
+2MEMUSER       +--Class Libraries: 87,552 bytes / 30 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--VM Class Libraries: 87,552 bytes / 30 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--sun.misc.Unsafe: 77,264 bytes / 18 allocations
+4MEMUSER       |  |  |  |
+5MEMUSER       |  |  |  +--Direct Byte Buffers: 66,704 bytes / 14 allocations
+4MEMUSER       |  |  |  |
+5MEMUSER       |  |  |  +--Other: 10,560 bytes / 4 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 10,288 bytes / 12 allocations
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       MEMINFO subcomponent dump routine
+NULL           =================================
+NULL
+1STHEAPTYPE    Object Memory
+NULL           id                 start              end                size               space/region
+1STHEAPSPACE   0x0000019E7CE6C120         --                 --                 --         Generational
+1STHEAPREGION  0x0000019E7CF19FC0 0x0000000081840000 0x0000000082D90000 0x0000000001550000 Generational/Tenured Region
+1STHEAPREGION  0x0000019E7CF19EE0 0x00000000FFA90000 0x00000000FFB60000 0x00000000000D0000 Generational/Nursery Region
+1STHEAPREGION  0x0000019E7CF1ADC0 0x00000000FFB60000 0x00000000FFFF0000 0x0000000000490000 Generational/Nursery Region
+NULL
+1STHEAPTOTAL   Total memory:                    27983872 (0x0000000001AB0000)
+1STHEAPINUSE   Total memory in use:             20176120 (0x000000000133DCF8)
+1STHEAPFREE    Total memory free:                7807752 (0x0000000000772308)
+NULL
+1STSEGTYPE     Internal Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x0000019E7E90AD80 0x00007FF415FA0000 0x00007FF415FA0000 0x00007FF416FA0000 0x01000440 0x0000000001000000
+1STSEGMENT     0x0000019E1DA872E0 0x0000019E1FE7B060 0x0000019E1FF26450 0x0000019E1FF7B060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90AB28 0x0000019E1FD6D060 0x0000019E1FE6D050 0x0000019E1FE6D060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E1D8BCA60 0x0000019E1EC71060 0x0000019E1ED71040 0x0000019E1ED71060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90AE48 0x0000019E1E954060 0x0000019E1EA54060 0x0000019E1EA54060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E1D8BCFD8 0x0000019E1E74A060 0x0000019E1E84A050 0x0000019E1E84A060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E1D8BC998 0x0000019E1E63E060 0x0000019E1E73E050 0x0000019E1E73E060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90AF10 0x0000019E1E31E060 0x0000019E1E41E040 0x0000019E1E41E060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90ACB8 0x0000019E1E202060 0x0000019E1E302040 0x0000019E1E302060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90A8D0 0x0000019E1D125060 0x0000019E1D225050 0x0000019E1D225060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90ABF0 0x0000019E1D01C060 0x0000019E1D11C060 0x0000019E1D11C060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90AA60 0x0000019E1CF0A060 0x0000019E1D00A060 0x0000019E1D00A060 0x00800040 0x0000000000100000
+1STSEGMENT     0x0000019E7E90A808 0x0000019E7F44D060 0x0000019E7F54D030 0x0000019E7F54D060 0x00800040 0x0000000000100000
+NULL
+1STSEGTOTAL    Total memory:                    29360128 (0x0000000001C00000)
+1STSEGINUSE    Total memory in use:             12235552 (0x0000000000BAB320)
+1STSEGFREE     Total memory free:               17124576 (0x0000000001054CE0)
+NULL
+1STSEGTYPE     Class Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x0000019E1F153EA0 0x0000000000151778 0x0000000000151C30 0x0000000000151C30 0x00010040 0x00000000000004B8
+1STSEGMENT     0x0000019E1F153DD8 0x0000019E1F128430 0x0000019E1F128960 0x0000019E1F128960 0x00020040 0x0000000000000530
+1STSEGMENT     0x0000019E1F153D10 0x0000000000C15AD0 0x0000000000C15F88 0x0000000000C15F88 0x00010040 0x00000000000004B8
+1STSEGMENT     0x0000019E1F153C48 0x0000019E1EF091B0 0x0000019E1EF09720 0x0000019E1EF09720 0x00020040 0x0000000000000570
+1STSEGMENT     0x0000019E1F153B80 0x0000000000EA0818 0x0000000000EA8818 0x0000000000EA8818 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1F153AB8 0x0000000000E987C8 0x0000000000EA07C8 0x0000000000EA07C8 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1F1539F0 0x0000019E1F0CC350 0x0000019E1F0D9BE8 0x0000019E1F0EC350 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1F153928 0x0000000000C155E0 0x0000000000C15A80 0x0000000000C15A80 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1F152F10 0x0000019E7F014E30 0x0000019E7F015088 0x0000019E7F015260 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1F152E48 0x0000000000E825F8 0x0000000000E8A5F8 0x0000000000E8A5F8 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1F152D80 0x0000000000E7A5A8 0x0000000000E825A8 0x0000000000E825A8 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1F152CB8 0x0000019E1F0AC300 0x0000019E1F0CAB08 0x0000019E1F0CC300 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1F152BF0 0x0000000000E6B498 0x0000000000E73498 0x0000000000E73498 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1F152B28 0x0000000000E63448 0x0000000000E6B448 0x0000000000E6B448 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1F152A60 0x0000019E1F170DF0 0x0000019E1F1722F8 0x0000019E1F190DF0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1F152998 0x0000000000C15040 0x0000000000C15590 0x0000000000C15590 0x00010040 0x0000000000000550
+1STSEGMENT     0x0000019E1F1528D0 0x0000019E1EFC73A0 0x0000019E1EFC7A30 0x0000019E1EFC7A30 0x00020040 0x0000000000000690
+1STSEGMENT     0x0000019E1F152808 0x0000000000C14AC0 0x0000000000C14FF0 0x0000000000C14FF0 0x00010040 0x0000000000000530
+1STSEGMENT     0x0000019E1F151560 0x0000019E1EFC6D30 0x0000019E1EFC7358 0x0000019E1EFC7358 0x00020040 0x0000000000000628
+1STSEGMENT     0x0000019E1F151498 0x0000000000C14560 0x0000000000C14A70 0x0000000000C14A70 0x00010040 0x0000000000000510
+1STSEGMENT     0x0000019E1F1513D0 0x0000019E1E1FA690 0x0000019E1E1FAC60 0x0000019E1E1FAC60 0x00020040 0x00000000000005D0
+1STSEGMENT     0x0000019E1F151308 0x0000000000B9BDF0 0x0000000000B9C2E0 0x0000000000B9C2E0 0x00010040 0x00000000000004F0
+1STSEGMENT     0x0000019E1F151240 0x0000019E1EEE5000 0x0000019E1EEE5588 0x0000019E1EEE5588 0x00020040 0x0000000000000588
+1STSEGMENT     0x0000019E1F151178 0x0000000000B9B8D0 0x0000000000B9BDA0 0x0000000000B9BDA0 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1F1510B0 0x0000019E1F16FD70 0x0000019E1F1702B0 0x0000019E1F1702B0 0x00020040 0x0000000000000540
+1STSEGMENT     0x0000019E1F150FE8 0x0000000000B9B3D0 0x0000000000B9B880 0x0000000000B9B880 0x00010040 0x00000000000004B0
+1STSEGMENT     0x0000019E1F150F20 0x0000019E1E1F7BE0 0x0000019E1E1F80C0 0x0000019E1E1F80C0 0x00020040 0x00000000000004E0
+1STSEGMENT     0x0000019E1F150E58 0x0000000000B9AEF0 0x0000000000B9B380 0x0000000000B9B380 0x00010040 0x0000000000000490
+1STSEGMENT     0x0000019E08FA08F0 0x0000019E1D4F6870 0x0000019E1D4F6CF0 0x0000019E1D4F6CF0 0x00020040 0x0000000000000480
+1STSEGMENT     0x0000019E08FA0828 0x0000000000E5B3F8 0x0000000000E633F8 0x0000000000E633F8 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08FA0760 0x0000019E1F130D70 0x0000019E1F150B40 0x0000019E1F150D70 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E08FA0698 0x0000000000E533A8 0x0000000000E5B3A8 0x0000000000E5B3A8 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08FA05D0 0x0000000000E4B358 0x0000000000E53358 0x0000000000E53358 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08FA0508 0x0000019E1F104370 0x0000019E1F122CB0 0x0000019E1F124370 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E08FA0440 0x0000000000E43308 0x0000000000E4B308 0x0000000000E4B308 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08FA0378 0x0000000000E3B2B8 0x0000000000E432B8 0x0000000000E432B8 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08FA02B0 0x0000000000E31D70 0x0000000000E3B268 0x0000000000E3B268 0x00010040 0x00000000000094F8
+1STSEGMENT     0x0000019E08FA01E8 0x0000019E1F08C2B0 0x0000019E1F0AB808 0x0000019E1F0AC2B0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E08F9E6B0 0x0000000000E29D20 0x0000000000E31D20 0x0000000000E31D20 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08F9E5E8 0x0000019E1F04C240 0x0000019E1F06AD60 0x0000019E1F06C240 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E08F9E520 0x0000000000E21CD0 0x0000000000E29CD0 0x0000000000E29CD0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08F9E458 0x0000000000E19C80 0x0000000000E21C80 0x0000000000E21C80 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08F9E390 0x0000019E1F02C1F0 0x0000019E1F04BA90 0x0000019E1F04C1F0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E08F9E2C8 0x0000000000E11C30 0x0000000000E19C30 0x0000000000E19C30 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08F9E200 0x0000000000E09BE0 0x0000000000E11BE0 0x0000000000E11BE0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08F9E138 0x0000000000E01B90 0x0000000000E09B90 0x0000000000E09B90 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E08F9E070 0x0000019E1EFEC190 0x0000019E1F00BDA8 0x0000019E1F00C190 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E08F9DFA8 0x0000000000DF9B40 0x0000000000E01B40 0x0000000000E01B40 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA82A80 0x0000000000DF1AF0 0x0000000000DF9AF0 0x0000000000DF9AF0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA829B8 0x0000019E1EFC7C60 0x0000019E1EFE7A50 0x0000019E1EFE7C60 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA828F0 0x0000000000DE9AA0 0x0000000000DF1AA0 0x0000000000DF1AA0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA82828 0x0000000000DE1A50 0x0000000000DE9A50 0x0000000000DE9A50 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA82760 0x0000019E1EF95C50 0x0000019E1EFB5878 0x0000019E1EFB5C50 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA82698 0x0000000000DD9A00 0x0000000000DE1A00 0x0000000000DE1A00 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA825D0 0x0000000000DD19B0 0x0000000000DD99B0 0x0000000000DD99B0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA82508 0x0000019E1EF75C00 0x0000019E1EF959C8 0x0000019E1EF95C00 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA82440 0x0000000000DC9960 0x0000000000DD1960 0x0000000000DD1960 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA82378 0x0000000000DC1910 0x0000000000DC9910 0x0000000000DC9910 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA85550 0x0000000000DB98C0 0x0000000000DC18C0 0x0000000000DC18C0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA85488 0x0000019E1EF55BB0 0x0000019E1EF75730 0x0000019E1EF75BB0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA853C0 0x0000000000DB1870 0x0000000000DB9870 0x0000000000DB9870 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA852F8 0x0000000000DA9820 0x0000000000DB1820 0x0000000000DB1820 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA85230 0x0000019E1EF2BB40 0x0000019E1EF4B090 0x0000019E1EF4BB40 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA85168 0x0000000000DA17D0 0x0000000000DA97D0 0x0000000000DA97D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA850A0 0x0000000000D99780 0x0000000000DA1780 0x0000000000DA1780 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA84FD8 0x0000019E1EF0BAF0 0x0000019E1EF2B350 0x0000019E1EF2BAF0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA84F10 0x0000000000D86560 0x0000000000D8E560 0x0000000000D8E560 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA84E48 0x0000000000D7E510 0x0000000000D86510 0x0000000000D86510 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA810D0 0x0000000000D764C0 0x0000000000D7E4C0 0x0000000000D7E4C0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA81008 0x0000019E1EEE57B0 0x0000019E1EF053F0 0x0000019E1EF057B0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA80F40 0x0000000000D6E470 0x0000000000D76470 0x0000000000D76470 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA80E78 0x0000000000D66420 0x0000000000D6E420 0x0000000000D6E420 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA80DB0 0x0000000000B9AA00 0x0000000000B9AEA0 0x0000000000B9AEA0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA80CE8 0x0000019E1D59F3D0 0x0000019E1D59F878 0x0000019E1D59F878 0x00020040 0x00000000000004A8
+1STSEGMENT     0x0000019E1DA80C20 0x0000019E1EEC1F20 0x0000019E1EEE1780 0x0000019E1EEE1F20 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA80B58 0x0000000000D5E3D0 0x0000000000D663D0 0x0000000000D663D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA80A90 0x0000000000D56380 0x0000000000D5E380 0x0000000000D5E380 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA809C8 0x0000000000D4E330 0x0000000000D56330 0x0000000000D56330 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA83310 0x0000019E1EE91EC0 0x0000019E1EEB1E08 0x0000019E1EEB1EC0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA83248 0x0000000000D462E0 0x0000000000D4E2E0 0x0000000000D4E2E0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA83180 0x0000000000D3E290 0x0000000000D46290 0x0000000000D46290 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA830B8 0x0000000000B9A540 0x0000000000B9A9B0 0x0000000000B9A9B0 0x00010040 0x0000000000000470
+1STSEGMENT     0x0000019E1DA82FF0 0x0000019E1D4F63A0 0x0000019E1D4F6800 0x0000019E1D4F6800 0x00020040 0x0000000000000460
+1STSEGMENT     0x0000019E1DA82F28 0x0000000000B9A050 0x0000000000B9A4F0 0x0000000000B9A4F0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA82E60 0x0000019E1E1F9080 0x0000019E1E1F95C0 0x0000019E1E1F95C0 0x00020040 0x0000000000000540
+1STSEGMENT     0x0000019E1DA82D98 0x0000000000B99A70 0x0000000000B9A000 0x0000000000B9A000 0x00010040 0x0000000000000590
+1STSEGMENT     0x0000019E1DA82CD0 0x0000019E1E1F88C0 0x0000019E1E1F9038 0x0000019E1E1F9038 0x00020040 0x0000000000000778
+1STSEGMENT     0x0000019E1DA82C08 0x0000000000B994B0 0x0000000000B99A20 0x0000000000B99A20 0x00010040 0x0000000000000570
+1STSEGMENT     0x0000019E1DA86F00 0x0000019E1E1F8170 0x0000019E1E1F8870 0x0000019E1E1F8870 0x00020040 0x0000000000000700
+1STSEGMENT     0x0000019E1DA86E38 0x00000000000FDCA8 0x00000000000FE1F8 0x00000000000FE1F8 0x00010040 0x0000000000000550
+1STSEGMENT     0x0000019E1DA86D70 0x0000019E1D90FAB0 0x0000019E1D910170 0x0000019E1D910170 0x00020040 0x00000000000006C0
+1STSEGMENT     0x0000019E1DA86CA8 0x00000000000FD718 0x00000000000FDC58 0x00000000000FDC58 0x00010040 0x0000000000000540
+1STSEGMENT     0x0000019E1DA86BE0 0x0000019E1D90F3D0 0x0000019E1D90FA60 0x0000019E1D90FA60 0x00020040 0x0000000000000690
+1STSEGMENT     0x0000019E1DA86B18 0x00000000000FD198 0x00000000000FD6C8 0x00000000000FD6C8 0x00010040 0x0000000000000530
+1STSEGMENT     0x0000019E1DA86A50 0x0000019E09323F80 0x0000019E093245E8 0x0000019E093245E8 0x00020040 0x0000000000000668
+1STSEGMENT     0x0000019E1DA86988 0x00000000000FCC38 0x00000000000FD148 0x00000000000FD148 0x00010040 0x0000000000000510
+1STSEGMENT     0x0000019E1DA868C0 0x0000019E09323920 0x0000019E09323F30 0x0000019E09323F30 0x00020040 0x0000000000000610
+1STSEGMENT     0x0000019E1DA867F8 0x00000000000FC6F8 0x00000000000FCBE8 0x00000000000FCBE8 0x00010040 0x00000000000004F0
+1STSEGMENT     0x0000019E1DA821F0 0x0000019E1E1FE7A0 0x0000019E1E1FED68 0x0000019E1E1FED68 0x00020040 0x00000000000005C8
+1STSEGMENT     0x0000019E1DA82128 0x00000000000FC1D8 0x00000000000FC6A8 0x00000000000FC6A8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA82060 0x0000019E1E1FE1E0 0x0000019E1E1FE750 0x0000019E1E1FE750 0x00020040 0x0000000000000570
+1STSEGMENT     0x0000019E1DA81F98 0x00000000000FBCC8 0x00000000000FC188 0x00000000000FC188 0x00010040 0x00000000000004C0
+1STSEGMENT     0x0000019E1DA81ED0 0x0000019E7CF2E7D0 0x0000019E7CF2ED10 0x0000019E7CF2ED10 0x00020040 0x0000000000000540
+1STSEGMENT     0x0000019E1DA81E08 0x00000000000FB7C8 0x00000000000FBC78 0x00000000000FBC78 0x00010040 0x00000000000004B0
+1STSEGMENT     0x0000019E1DA81D40 0x0000019E1D599320 0x0000019E1D599838 0x0000019E1D599838 0x00020040 0x0000000000000518
+1STSEGMENT     0x0000019E1DA81C78 0x00000000000FB2E8 0x00000000000FB778 0x00000000000FB778 0x00010040 0x0000000000000490
+1STSEGMENT     0x0000019E1DA81BB0 0x0000019E1D5A3090 0x0000019E1D5A3530 0x0000019E1D5A3530 0x00020040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA81AE8 0x0000000000D36240 0x0000000000D3E240 0x0000000000D3E240 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA86670 0x0000019E1EE6FE10 0x0000019E1EE8FB80 0x0000019E1EE8FE10 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA865A8 0x0000000000D2E1F0 0x0000000000D361F0 0x0000000000D361F0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA864E0 0x0000000000D261A0 0x0000000000D2E1A0 0x0000000000D2E1A0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA86418 0x0000019E1EE4FDC0 0x0000019E1EE6FBD8 0x0000019E1EE6FDC0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA86350 0x00000000000FADF8 0x00000000000FB298 0x00000000000FB298 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA86288 0x0000019E7ECBA090 0x0000019E7ECBA560 0x0000019E7ECBA560 0x00020040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA861C0 0x00000000000FA8D8 0x00000000000FADA8 0x00000000000FADA8 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA860F8 0x0000019E1E04A0A0 0x0000019E1E04A688 0x0000019E1E04A688 0x00020040 0x00000000000005E8
+1STSEGMENT     0x0000019E1DA86030 0x00000000000FA3E8 0x00000000000FA888 0x00000000000FA888 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA85F68 0x0000019E7ECBCB10 0x0000019E7ECBD008 0x0000019E7ECBD008 0x00020040 0x00000000000004F8
+1STSEGMENT     0x0000019E1DA81960 0x00000000000F9EC8 0x00000000000FA398 0x00000000000FA398 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA81898 0x0000019E1EE060D0 0x0000019E1EE066F8 0x0000019E1EE066F8 0x00020040 0x0000000000000628
+1STSEGMENT     0x0000019E1DA817D0 0x0000000000D0FF20 0x0000000000D17F20 0x0000000000D17F20 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA81708 0x0000000000D07ED0 0x0000000000D0FED0 0x0000000000D0FED0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA81640 0x0000000000CFFE80 0x0000000000D07E80 0x0000000000D07E80 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA81578 0x0000000000CF7E30 0x0000000000CFFE30 0x0000000000CFFE30 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA814B0 0x0000000000CE1370 0x0000000000CE9370 0x0000000000CE9370 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA813E8 0x0000000000CD9320 0x0000000000CE1320 0x0000000000CE1320 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA81320 0x0000000000CD12D0 0x0000000000CD92D0 0x0000000000CD92D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA81258 0x0000019E1EE0E960 0x0000019E1EE2E478 0x0000019E1EE2E960 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA85DE0 0x0000000000CA34E0 0x0000000000CAB4E0 0x0000000000CAB4E0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA85D18 0x0000000000C9B490 0x0000000000CA3490 0x0000000000CA3490 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA85C50 0x0000000000C9AFD0 0x0000000000C9B440 0x0000000000C9B440 0x00010040 0x0000000000000470
+1STSEGMENT     0x0000019E1DA85B88 0x0000019E1D4F8550 0x0000019E1D4F89B0 0x0000019E1D4F89B0 0x00020040 0x0000000000000460
+1STSEGMENT     0x0000019E1DA85AC0 0x0000000000C9AAE0 0x0000000000C9AF80 0x0000000000C9AF80 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA859F8 0x0000019E1E04AA10 0x0000019E1E04AF50 0x0000019E1E04AF50 0x00020040 0x0000000000000540
+1STSEGMENT     0x0000019E1DA85930 0x0000000000C9A5E0 0x0000000000C9AA90 0x0000000000C9AA90 0x00010040 0x00000000000004B0
+1STSEGMENT     0x0000019E1DA85868 0x0000019E1D3C32A0 0x0000019E1D3C37F0 0x0000019E1D3C37F0 0x00020040 0x0000000000000550
+1STSEGMENT     0x0000019E1DA857A0 0x0000000000C9A0F0 0x0000000000C9A590 0x0000000000C9A590 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA856D8 0x0000019E1EDA1910 0x0000019E1EDA1E58 0x0000019E1EDA1E58 0x00020040 0x0000000000000548
+1STSEGMENT     0x0000019E1DA798F0 0x0000000000C920A0 0x0000000000C9A0A0 0x0000000000C9A0A0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA79828 0x0000000000C8A050 0x0000000000C92050 0x0000000000C92050 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA79760 0x0000019E1ED800A0 0x0000019E1ED9F8A8 0x0000019E1EDA00A0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA79698 0x0000000000C82000 0x0000000000C8A000 0x0000000000C8A000 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA795D0 0x0000000000C79FB0 0x0000000000C81FB0 0x0000000000C81FB0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA79508 0x0000000000C71F60 0x0000000000C79F60 0x0000000000C79F60 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA79440 0x0000000000C71A40 0x0000000000C71F10 0x0000000000C71F10 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA79378 0x0000019E1E048580 0x0000019E1E048B88 0x0000019E1E048B88 0x00020040 0x0000000000000608
+1STSEGMENT     0x0000019E1DA792B0 0x0000000000C71550 0x0000000000C719F0 0x0000000000C719F0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA791E8 0x0000019E1D3C1FD0 0x0000019E1D3C24F0 0x0000019E1D3C24F0 0x00020040 0x0000000000000520
+1STSEGMENT     0x0000019E1DA80840 0x0000019E1E1B8C00 0x0000019E1E1D8378 0x0000019E1E1D8C00 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA80778 0x0000000000C69500 0x0000000000C71500 0x0000000000C71500 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA806B0 0x0000000000C614B0 0x0000000000C694B0 0x0000000000C694B0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA805E8 0x0000000000C59460 0x0000000000C61460 0x0000000000C61460 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA80520 0x0000019E1E190BA0 0x0000019E1E1B07A8 0x0000019E1E1B0BA0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA80458 0x0000000000C51410 0x0000000000C59410 0x0000000000C59410 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA80390 0x0000000000C493C0 0x0000000000C513C0 0x0000000000C513C0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA802C8 0x0000019E1E170B50 0x0000019E1E190960 0x0000019E1E190B50 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA80200 0x0000000000C41370 0x0000000000C49370 0x0000000000C49370 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA80138 0x0000000000C40E80 0x0000000000C41320 0x0000000000C41320 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7DD70 0x0000019E1D5A4EF0 0x0000019E1D5A53A0 0x0000019E1D5A53A0 0x00020040 0x00000000000004B0
+1STSEGMENT     0x0000019E1DA7DCA8 0x0000000000C38E30 0x0000000000C40E30 0x0000000000C40E30 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7DBE0 0x0000019E1E150B00 0x0000019E1E1704A8 0x0000019E1E170B00 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA7DB18 0x0000000000C30DE0 0x0000000000C38DE0 0x0000000000C38DE0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7DA50 0x0000000000C28D90 0x0000000000C30D90 0x0000000000C30D90 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D988 0x0000019E1E10E4E0 0x0000019E1E12E060 0x0000019E1E12E4E0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA7D8C0 0x0000000000C20D40 0x0000000000C28D40 0x0000000000C28D40 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D7F8 0x0000000000C18CF0 0x0000000000C20CF0 0x0000000000C20CF0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D730 0x0000019E1E0EC430 0x0000019E1E10C098 0x0000019E1E10C430 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA7D668 0x0000000000C0CF90 0x0000000000C0D430 0x0000000000C0D430 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA79060 0x0000019E7F019730 0x0000019E7F019990 0x0000019E7F019B68 0x00020040 0x0000000000000438
+1STSEGMENT     0x0000019E1DA78F98 0x0000000000C0CAA0 0x0000000000C0CF40 0x0000000000C0CF40 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA78ED0 0x0000019E7F016070 0x0000019E7F0162C8 0x0000019E7F0164A0 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1DA78E08 0x0000000000C04A50 0x0000000000C0CA50 0x0000000000C0CA50 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA78D40 0x0000000000C04560 0x0000000000C04A00 0x0000000000C04A00 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA78C78 0x0000019E7F015BE0 0x0000019E7F015E38 0x0000019E7F016010 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1DA78BB0 0x0000000000C04070 0x0000000000C04510 0x0000000000C04510 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA78AE8 0x0000019E1D3C2610 0x0000019E1D3C2868 0x0000019E1D3C2A40 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1DA78A20 0x0000000000C03B80 0x0000000000C04020 0x0000000000C04020 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA78958 0x0000019E1D9112B0 0x0000019E1D911508 0x0000019E1D9116E0 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1DA7E600 0x0000000000C03690 0x0000000000C03B30 0x0000000000C03B30 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7E538 0x0000019E1D98D310 0x0000019E1D98D568 0x0000019E1D98D740 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1DA7E470 0x0000000000BFB640 0x0000000000C03640 0x0000000000C03640 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7E3A8 0x0000000000BFB150 0x0000000000BFB5F0 0x0000000000BFB5F0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7E2E0 0x0000019E7ECB9B40 0x0000019E7ECBA010 0x0000019E7ECBA010 0x00020040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA7E218 0x0000000000BFAC30 0x0000000000BFB100 0x0000000000BFB100 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA7E150 0x0000019E1D3C19A0 0x0000019E1D3C1F88 0x0000019E1D3C1F88 0x00020040 0x00000000000005E8
+1STSEGMENT     0x0000019E1DA7E088 0x0000000000BFA740 0x0000000000BFABE0 0x0000000000BFABE0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7DFC0 0x0000019E7ECBAB30 0x0000019E7ECBB030 0x0000019E7ECBB030 0x00020040 0x0000000000000500
+1STSEGMENT     0x0000019E1DA7DEF8 0x0000000000BFA220 0x0000000000BFA6F0 0x0000000000BFA6F0 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA7BB30 0x0000019E1D910C60 0x0000019E1D911268 0x0000019E1D911268 0x00020040 0x0000000000000608
+1STSEGMENT     0x0000019E1DA7BA68 0x0000000000BF9D30 0x0000000000BFA1D0 0x0000000000BFA1D0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7B9A0 0x0000019E7ECB95F0 0x0000019E7ECB9AC0 0x0000019E7ECB9AC0 0x00020040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA7B8D8 0x0000000000BF9810 0x0000000000BF9CE0 0x0000000000BF9CE0 0x00010040 0x00000000000004D0
+1STSEGMENT     0x0000019E1DA7B810 0x0000019E1D98C860 0x0000019E1D98CE48 0x0000019E1D98CE48 0x00020040 0x00000000000005E8
+1STSEGMENT     0x0000019E1DA7B748 0x0000000000BF9320 0x0000000000BF97C0 0x0000000000BF97C0 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7B680 0x0000019E7ECB60D0 0x0000019E7ECB65C8 0x0000019E7ECB65C8 0x00020040 0x00000000000004F8
+1STSEGMENT     0x0000019E1DA7B5B8 0x0000000000BF12D0 0x0000000000BF92D0 0x0000000000BF92D0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7B4F0 0x0000019E1E0BC3D0 0x0000019E1E0DBC70 0x0000019E1E0DC3D0 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA7B428 0x0000000000BE9280 0x0000000000BF1280 0x0000000000BF1280 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D4E0 0x0000000000BE8D90 0x0000000000BE9230 0x0000000000BE9230 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7D418 0x0000019E1D98CEA0 0x0000019E1D98D0F8 0x0000019E1D98D2C8 0x00020040 0x0000000000000428
+1STSEGMENT     0x0000019E1DA7D350 0x0000000000BE0D40 0x0000000000BE8D40 0x0000000000BE8D40 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D288 0x0000019E1E094370 0x0000019E1E0B4040 0x0000019E1E0B4370 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA7D1C0 0x0000000000BD8CF0 0x0000000000BE0CF0 0x0000000000BE0CF0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D0F8 0x0000000000BD0CA0 0x0000000000BD8CA0 0x0000000000BD8CA0 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7D030 0x0000000000BC8C50 0x0000000000BD0C50 0x0000000000BD0C50 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7CF68 0x0000019E1E04E090 0x0000019E1E06DD28 0x0000019E1E06E090 0x00020040 0x0000000000020000
+1STSEGMENT     0x0000019E1DA7CEA0 0x0000000000BC8748 0x0000000000BC8C00 0x0000000000BC8C00 0x00010040 0x00000000000004B8
+1STSEGMENT     0x0000019E1DA7CDD8 0x0000019E1DE78190 0x0000019E1DE78700 0x0000019E1DE78700 0x00020040 0x0000000000000570
+1STSEGMENT     0x0000019E1DA7FFB0 0x0000000000BC8258 0x0000000000BC86F8 0x0000000000BC86F8 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7FEE8 0x0000019E1E048C10 0x0000019E1E048E68 0x0000019E1E049040 0x00020040 0x0000000000000430
+1STSEGMENT     0x0000019E1DA7FE20 0x0000000000BC7D68 0x0000000000BC8208 0x0000000000BC8208 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7FD58 0x0000019E1DFE9F50 0x0000019E1DFEA190 0x0000019E1DFEA378 0x00020040 0x0000000000000428
+1STSEGMENT     0x0000019E1DA7FC90 0x0000000000BC7878 0x0000000000BC7D18 0x0000000000BC7D18 0x00010040 0x00000000000004A0
+1STSEGMENT     0x0000019E1DA7FBC8 0x0000019E1DB19AA0 0x0000019E1DB19CE0 0x0000019E1DB19EB8 0x00020040 0x0000000000000418
+1STSEGMENT     0x0000019E1DA7FB00 0x0000000000BBF828 0x0000000000BC7828 0x0000000000BC7828 0x00010040 0x0000000000008000
+1STSEGMENT     0x0000019E1DA7FA38 0x0000000000BB77D8 0x0000000000BBF7D8 0x0000000000BBF7D8 0x00010040

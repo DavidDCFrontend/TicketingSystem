@@ -4,10 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 
 import es.dsw.services.CurrentDateTimeService;
+import es.dsw.services.RepositoryService;
 
 @Controller
+@SessionAttributes({"booking", "validation"})
 public class MainController {
 	
 	private final CurrentDateTimeService currentDateTimeService;
@@ -18,7 +22,9 @@ public class MainController {
 	}
 
 	@GetMapping(value= {"/", "/index"}) 
-	public String index(Model model) {	
+	public String index(SessionStatus status, Model model) {
+		
+		status.setComplete();
 		
 		String currentDay = currentDateTimeService.getCurrentDay();
 		String currentHour = currentDateTimeService.getCurrentHour();
@@ -31,20 +37,6 @@ public class MainController {
 		return "index";
 	}
 	
-	@GetMapping(value= {"/step1"})
-	public String step1() {
-		return "views/step1";
-	}
-	
-	@GetMapping(value= {"/step2"})
-	public String step2() {
-		return "views/step2";
-	}
-	
-	@GetMapping(value= {"/step3"})
-	public String step3() {
-		return "views/step3";
-	}
 	
 	@GetMapping(value= {"/step4"})
 	public String step4() {

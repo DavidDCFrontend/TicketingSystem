@@ -274,7 +274,7 @@ body {background-color: rgb(124, 122, 122);
    font-family: arial;
 }
 
-.info > p > span {
+.info > p > span:first-child {
     font-weight: bold;
     color: white;
 }
@@ -455,12 +455,14 @@ form.Fdatares input[type="number"] {
 form.Fdatares input:hover{
     outline: none;
     border-color:rgb(243, 251, 7);
- }
+}
 
 form.Fdatares input:focus{
     outline: none;
     border-color:rgb(251, 210, 7);
- }
+}
+
+
 
  /*BOTONES SIG, ATRAS y HOME*/
  form input[type="submit"], form a {
@@ -501,6 +503,13 @@ form input[type="submit"]:hover, form a:hover, form a.homebtn:hover {
     border-color:rgb(255, 255, 255, 0.5);
 }
 
+form.Fdatares .input-error[type="text"],
+form.Fdatares .input-error[type="email"],
+form.Fdatares .input-error[type="date"],
+form.Fdatares .input-error[type="time"],
+form.Fdatares .input-error[type="number"]{
+	border: 2px solid red;
+}
 
 
 /*--------------------------- ESTILOS DE STEP3.HTML ---------------------------------------------*/
